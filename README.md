@@ -15,18 +15,22 @@ The PSU board combines an MPPT (Multiple Point Power Tracking) solar charger, 4.
 * **Max input current:** 2.5A
 * **Max output current:** 6.5A
 * **Max operating current:** 2A
-* **Ripple:** ???
+* **Ripple:** <50mVpp nominal steady state
 * **Size**: 65mm x 27mm x 15mm
 
 #### Protection
 
-* **Input protection:** unipolar Zener diode, ??? working voltage, clamps to ???V @ ???A 
-* **Overload protection, Vbat:** ????
-* **Overload protection, Vout:** ????
-* **Reverse polarity protection, Vin:** ???
-* **Reverse polarity protection, Vbat:** ???
-* **Overheating protection:**
-* **Electrostatic protection:**
+* **Shunt Input protection:** Bipolar Zener diode, 24V working voltage, clamps to 38.9V @ 15.5A; For ESD and shunt of high-voltage surges. First line of defence. 
+* **Series Input protection:** 24V working voltage 31.6V clamp, 2.5A max current. Series FETs and associated circutry will: 
+Block reverse voltage. Limit current during hot-plug (for no sparks) and during surges. 
+If prolonged over-voltage surge is detected charger is disabled (w/ auto-restart after surge passes) to limit power dissipated in series FETs. 
+Precision over-voltage clamp (31.6V) protects switching FETs from over-voltage.  
+* **Overload protection, Vbat:** None, rely on BMS. Charge current and voltage is limited by charger. 
+* **Overload protection, Vout:** 4A lim; 4.5ms time constant. Retry after >500ms. Short-circuit safe.
+* **Reverse polarity protection, Vin:** Safe DC voltage of +/-24V.
+* **Reverse polarity protection, Vbat:** None. Charger will not attempt to charge a reversed battery but other electronics would be damaged. Batt reverse protection must be placed on BMS. 
+* **Overheating protection:** Charge only when safe for Li-Ion 0C-45C, and adjust current/voltage based on temp (LT8490 feature). 
+* **Electrostatic protection:** ESD/Surge protection on Input voltage, Heartbeat input, Battery voltage, Device voltage. 
 
 
 ## Overview
@@ -34,7 +38,7 @@ The PSU board combines an MPPT (Multiple Point Power Tracking) solar charger, 4.
 The PSU is built around [LT8490](https://www.analog.com/en/products/lt8490.html) buck-boost switching regulator battery charger with CC/CV modes and MPPT for solar input.
 
 The purpose of the PSU is to provide a compromise between fast charging and efficient low light charging a 4P/5P/6P Li-Ion battery pack powering the main board.
-The PSU incurs more loses during charging (18v -> 4.2v) to minimizes losses during discharge (4.2v direct output).
+The PSU incurs more losses during charging (18v -> 4.2v) to minimizes losses during discharge (4.2v direct output).
 `Vout` port has an analog restart circuit for a hard reboot of the main device every 18 - 24 hrs.
 
 ![photo]
@@ -55,15 +59,15 @@ Most battery protection systems require external voltage to be applied for their
 
 #### Under-voltage protection
 
-G935 board can function with Vin > 3.4v. However, the initial draw from a 3.4v battery brings the voltage down to below that. This initiates a start-abort boot cycle that drains the battery and may even damage the board. This PSU has a special undervoltage control circuit built that disables the Vout to the device until the battery voltage reaches at least 3.7v. The voltage is measured during the restart event only.
+G935 board can function with Vin > 3.4v. However, the initial draw from a 3.4v battery brings the voltage down to below that. This initiates a start-abort boot cycle that drains the battery and may even damage the board. This PSU has a special undervoltage control circuit built that disables the Vout to the device until the battery voltage reaches at least 3.7v. Once operational, the device will continue until the voltage drops to 3.20V. When off, the device is latched off until the restarter circuit triggers or the battery voltage rapidly rises (a freshly inserted battery, a freshly reset BMS). 
 
 **Consider these scenarios:**
 
-* battery connected, Vbat < 3.7v -> Vout = 0v
-* battery connected, Vbat > 3.7v -> Vout = Vbat
-* battery discharging, Vbat < 3.7v -> Vout = Vbat
-* battery discharging, reboot, Vbat < 3.7v -> Vout = Vbat
-* Vout=0v, battery charged to 3.7v, reboot -> Vout = Vbat
+* battery connected, Vbat < 3.7v -> Vout = Vbat momentarily, then latches off to Vout = 0V. 
+* battery connected, Vbat > 3.7v -> Vout = Vbat; operational
+* battery discharging, 3.2v < Vbat < 3.7v -> Vout = Vbat; operational
+* battery discharging, reboot, Vbat < 3.7v -> Vout = Vbat momentarily, then latches off to Vout = 0V. 
+* battery charged to 3.7v, reboot -> Vout = Vbat; operational
 
 ![undervoltage]
 
@@ -73,7 +77,9 @@ Given the remote nature of the PSU deployment a **hard reboot** on a schedule (a
 
 A restarter **heartbeat** wire (P3.2) can be connected to an NFC pin on G935 boards to prevent the restart. When NFC is enabled G935 sends a short burst of pulses to the restarter resetting the timer.
 
-**Heartbeat signal requirements:** V > ???v for at least ???ms.
+**Heartbeat signal requirements:** Rising edge or edges (such as sine waves from NFC) with >2V positive peaks. Must be present for >1ms.  Then, must relax for  2s < t << 27 hrs.  For example, send a 1ms NFC pulse every 5s/5min/5hour. 
+Can also be operated with DC with similar timing/voltage requirements.  
+Will not work with consistent output, must be pulsed.  
 
 
 
