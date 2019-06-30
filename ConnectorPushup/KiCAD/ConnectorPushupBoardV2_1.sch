@@ -1,0 +1,143 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L HUBSY_RISER_BOARD_M50-3201245_AND_2x_GRPB051VWVN-RC-RESCUE-ConnectorPushupBoard P2
+U 1 1 5935DB92
+P 4725 3100
+F 0 "P2" H 4725 3425 60  0000 C CNN
+F 1 "HUBSY_RISER_BOARD_M50-3201245_AND_2x_GRPB051VWVN-RC" H 4725 3400 20  0001 C CNN
+F 2 "Footprints:RISER_BOARD_CONN_RCPT_2ROW_24POS_TH_RA_1.27MM__thruhole" H 4725 3450 15  0001 C CNN
+F 3 "" H 4725 2975 60  0000 C CNN
+F 4 "MFG1" H 5075 2900 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 5075 2925 10  0001 C CNN "Manufacturer1PartNumber"
+	1    4725 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5935E1BB
+P 5075 3300
+F 0 "#PWR02" H 5050 3285 5   0001 C CNN
+F 1 "GND" H 5045 3295 5   0001 C CNN
+F 2 "" H 5075 3300 50  0000 C CNN
+F 3 "" H 5075 3300 50  0000 C CNN
+	1    5075 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5935E1C3
+P 4475 3375
+F 0 "#PWR03" H 4450 3360 5   0001 C CNN
+F 1 "GND" H 4445 3370 5   0001 C CNN
+F 2 "" H 4475 3375 50  0000 C CNN
+F 3 "" H 4475 3375 50  0000 C CNN
+	1    4475 3375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3025 4425 3025
+Wire Wire Line
+	4450 3025 4450 3050
+Wire Wire Line
+	4350 3125 4450 3125
+Connection ~ 4450 3125
+Wire Wire Line
+	4650 3025 4650 3175
+Wire Wire Line
+	4650 3175 4350 3175
+Wire Wire Line
+	4700 3025 4725 3025
+Wire Wire Line
+	4700 3075 4700 3200
+Wire Wire Line
+	4700 3075 4750 3075
+Wire Wire Line
+	4750 3075 4750 3025
+Wire Wire Line
+	4350 3225 4375 3225
+Connection ~ 4750 3075
+Wire Wire Line
+	4725 3125 5100 3125
+Wire Wire Line
+	5100 3175 5075 3175
+Wire Wire Line
+	5000 3025 5000 3175
+Connection ~ 5000 3175
+Wire Wire Line
+	4850 3025 4850 3050
+Wire Wire Line
+	4850 3050 5075 3050
+Wire Wire Line
+	5075 3050 5075 3025
+Wire Wire Line
+	5075 3025 5100 3025
+Wire Wire Line
+	4475 3375 4475 3150
+Wire Wire Line
+	4475 3150 4450 3150
+Connection ~ 4450 3150
+Wire Wire Line
+	5075 3300 5075 3175
+Connection ~ 5075 3175
+Wire Wire Line
+	4600 3075 4600 3025
+Wire Wire Line
+	4600 3225 4600 3200
+Wire Wire Line
+	4825 3225 5100 3225
+Wire Wire Line
+	4800 3200 4825 3200
+Wire Wire Line
+	4825 3200 4825 3225
+Connection ~ 4725 3125
+Wire Wire Line
+	4725 3025 4725 3125
+Wire Wire Line
+	4750 3150 4750 3200
+Wire Wire Line
+	4850 3200 4850 3275
+Wire Wire Line
+	4850 3275 4375 3275
+Wire Wire Line
+	4375 3275 4375 3225
+Connection ~ 4375 3225
+Wire Wire Line
+	4725 3150 4750 3150
+Wire Wire Line
+	4425 3025 4425 3050
+Wire Wire Line
+	4425 3050 4450 3050
+Connection ~ 4450 3050
+Wire Wire Line
+	4450 3125 4450 3150
+Wire Wire Line
+	4750 3075 5100 3075
+Wire Wire Line
+	5000 3175 5000 3200
+Wire Wire Line
+	4450 3150 4450 3200
+Wire Wire Line
+	5075 3175 5000 3175
+Wire Wire Line
+	4725 3125 4725 3150
+Wire Wire Line
+	4375 3225 4600 3225
+Wire Wire Line
+	4450 3050 4450 3125
+Wire Wire Line
+	4350 3075 4600 3075
+$EndSCHEMATC

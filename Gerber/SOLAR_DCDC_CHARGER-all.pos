@@ -1,0 +1,243 @@
+### Module positions - created on 1/2/2018 2:22:06 AM ###
+### Printed by Pcbnew version kicad 4.0.2-stable
+## Unit = inches, Angle = deg.
+## Side : All
+# Ref     Val                   Package                                                            PosX       PosY       Rot  Side
+C2        .33uF X7R             0603_Medium_Pads                                                 0.4408     1.2130   90.0000  bottom
+C3        10uF X5R              1206_Medium_Pads                                                 0.1009     0.1280   90.0000  bottom
+C6        .033uF X7R            0402_Medium_pads                                                 0.4814     0.7101  270.0000  bottom
+C7        1000pF X7R            0402_Medium_pads                                                 0.4646     0.7792  270.0000  bottom
+C8        8200pF X7R            0402_Medium_pads                                                 0.4518     0.9118   90.0000  bottom
+C9        10uF X5R              1206_Medium_Pads                                                 0.1020     0.0490   90.0000  bottom
+C10       DNU                   0402_Medium_pads                                                 0.4202     0.8582  180.0000  bottom
+C11       1000pF X7R            0603_Medium_Pads                                                 0.2236     1.4120  180.0000  bottom
+C12       10uF X5R              1206_Medium_Pads                                                 0.7716     0.3216  180.0000  bottom
+C13       DNU                   0402_Medium_pads                                                 0.0447     0.6457  270.0000  bottom
+C14       10uF X5R              1206_Medium_Pads                                                 0.8494     0.3571  180.0000  bottom
+C15       DNU                   0402_Medium_pads                                                 0.6890     0.9911    0.0000  bottom
+C17       DNU                   0603_Medium_Pads                                                 0.4215     0.2276  270.0000  bottom
+C18       1uF                   0805_Medium_Pads                                                 0.6239     0.4647  180.0000  bottom
+C19       10uF X5R              1206_Medium_Pads                                                 0.2760     0.4290  270.0000  bottom
+C22       10uF                  1206_Medium_Pads                                                 0.5328     1.0803   90.0000  bottom
+C23       10uF                  1206_Medium_Pads                                                 0.5340     1.0027  270.0000  bottom
+C24       .1uF X7R              0402_Medium_pads                                                 0.4736     0.5878  180.0000  bottom
+C25       1uF                   0805_Medium_Pads                                                 0.2770     0.3520  270.0000  bottom
+C26       .068uF X7R            0402_Medium_pads                                                 0.4113     0.6893  270.0000  bottom
+C28       1000pF X7R            0402_Medium_pads                                                 0.2524     1.1900    0.0000  bottom
+C29       10uF X5R              1206_Medium_Pads                                                 0.2811     0.2820  270.0000  bottom
+C30       10uF                  1206_Medium_Pads                                                 0.3391     0.5280  270.0000  bottom
+C31       1uF                   0805_Medium_Pads                                                 0.5439     0.4113  180.0000  bottom
+C32       .1uF X7R              0402_Medium_pads                                                 0.7726     2.0310   90.0000  bottom
+C34       10uF X5R              1206_Medium_Pads                                                 0.9303     0.3783  180.0000  bottom
+C36       10uF X5R              1206_Medium_Pads                                                 1.0138     0.1980    0.0000  bottom
+C37       10uF X5R              1206_Medium_Pads                                                 0.9737     0.7410   90.0000  bottom
+C39       .068uF X7R            0402_Medium_pads                                                 0.0616     1.7575  270.0000  bottom
+C40       1000pF X7R            0402_Medium_pads                                                 0.0507     1.6390  270.0000  bottom
+C41       .047uF X7R            0402_Medium_pads                                                 0.0506     1.9695  270.0000  bottom
+C43       10uF X5R              1206_Medium_Pads                                                 0.9335     0.2009    0.0000  bottom
+C44       10uF                  1206_Medium_Pads                                                 1.0046     1.3960  180.0000  bottom
+C45       10uF X5R              1206_Medium_Pads                                                 1.0138     0.3785  180.0000  bottom
+C47       .047uF X7R            0402_Medium_pads                                                 0.5596     0.8140    0.0000  bottom
+C48       1000pF X7R            0402_Medium_pads                                                 0.0526     1.4785  270.0000  bottom
+C49       1000pF X7R            0402_Medium_pads                                                 0.4965     1.7275   90.0000  bottom
+C51       47uF                  1206_Medium_Pads                                                 0.3431     1.7070  270.0000  bottom
+C52       10uF                  1206_Medium_Pads                                                 1.0116     1.7560    0.0000  bottom
+C53       10uF                  1206_Medium_Pads                                                 0.9296     1.6700    0.0000  bottom
+C54       10uF X5R              1206_Medium_Pads                                                 0.8085     0.9080  270.0000  bottom
+C55       .047uF X7R            0402_Medium_pads                                                 0.6196     0.7366  180.0000  bottom
+C56       10uF X5R              1206_Medium_Pads                                                 0.7957     0.7340  270.0000  bottom
+C57       10uF X5R              1206_Medium_Pads                                                 0.0990     0.3610   90.0000  bottom
+C60       10uF                  1206_Medium_Pads                                                 1.0136     1.5789    0.0000  bottom
+C61       10uF X5R              1206_Medium_Pads                                                 0.8307     0.8220  270.0000  bottom
+C62       1000pF X7R            0402_Medium_pads                                                 0.0483     1.7994   90.0000  bottom
+C64       10uF X5R              1206_Medium_Pads                                                 0.0980     0.4390   90.0000  bottom
+C65       1000pF X7R            0603_Medium_Pads                                                 0.8396     1.4535  180.0000  bottom
+C66       10uF X5R              1206_Medium_Pads                                                 0.0989     0.5160   90.0000  bottom
+C67       1000pF X7R            0402_Medium_pads                                                 0.5974     1.2031    0.0000  bottom
+C68       10uF X5R              1206_Medium_Pads                                                 0.7732     0.1441    0.0000  bottom
+C69       10uF X5R              1206_Medium_Pads                                                 0.2794     0.0480  270.0000  bottom
+C70       10uF X5R              1206_Medium_Pads                                                 0.8540     0.1757    0.0000  bottom
+C71       10uF X5R              1206_Medium_Pads                                                 0.2795     0.2025  270.0000  bottom
+C72       10uF X5R              1206_Medium_Pads                                                 0.0991     0.2830   90.0000  bottom
+C73       10uF X5R              1206_Medium_Pads                                                 0.1009     0.2050   90.0000  bottom
+C75       8200pF X7R            0402_Medium_pads                                                 0.7436     1.0540   90.0000  bottom
+C76       8200pF X7R            0402_Medium_pads                                                 0.6546     0.5710    0.0000  bottom
+C77       .033uF X7R            0603_Medium_Pads                                                 0.7710     2.1573  180.0000  bottom
+C78       1000pF X7R            0402_Medium_pads                                                 0.5260     2.1603    0.0000  bottom
+C79       1000pF X7R            0402_Medium_pads                                                 0.8316     2.0765  180.0000  bottom
+C80       10uF X5R              1206_Medium_Pads                                                 0.2498     2.1904   90.0000  bottom
+C81       8200pF X7R            0402_Medium_pads                                                 0.9954     2.1891  180.0000  bottom
+C82       .1uF X7R              0402_Medium_pads                                                 1.0338     2.1879    0.0000  bottom
+C83       .1uF X7R              0402_Medium_pads                                                 1.0391     1.8775    0.0000  bottom
+D3        150mA                 SOD-523F                                                         0.6212     0.6772   90.0000  bottom
+D4        150mA                 SOD-523F                                                         0.6139     0.5980    0.0000  bottom
+D5        1A                    SOD-123F                                                         0.5439     0.5680    0.0000  bottom
+D6        500mA                 SOD-323                                                          0.0702     1.5914  270.0000  bottom
+D7        38.9VC 600WPk         SMB                                                              0.7535     1.7770  270.0000  bottom
+D8        ZENER_BiDir_3pin_SOT  SOT-23                                                           0.7735     1.9469  180.0000  bottom
+D9        ZENER_BiDir_3pin_SOT  SOT-23                                                           0.2021     1.6405   90.0000  bottom
+D10       ZENER_BiDir_3pin_SOT  SOT-23                                                           0.4692     1.6309  180.0000  bottom
+D11       150mA                 SOD-523F                                                         0.4836     2.1646    0.0000  bottom
+D12       150mA                 SOD-523F                                                         1.0364     1.9770  180.0000  bottom
+D13       150mA                 SOD-523F                                                         1.0368     2.0920  180.0000  bottom
+D14       150mA                 SOD-523F                                                         0.9932     1.9422  180.0000  bottom
+D15       150mA                 SOD-523F                                                         0.9544     1.8636   90.0000  bottom
+D16       150mA                 SOD-523F                                                         0.0376     2.0556    0.0000  bottom
+D17       150mA                 SOD-523F                                                         0.8471     1.2720   45.0000  bottom
+FID1      FIDUCIAL              FIDUCIAL_.75mm                                                   0.4714     0.4656    0.0000  bottom
+P1        PAD                   Measurement_Pt_.4mm_circle                                       0.3632     1.1640    0.0000  bottom
+P2        PAD                   Measurement_Pt_.4mm_circle                                       0.1982     1.1780    0.0000  bottom
+P6        PAD                   Measurement_Pt_.4mm_circle                                       0.4053     1.0735    0.0000  bottom
+P7        PAD                   Measurement_Pt_.4mm_circle                                       0.0563     1.0752    0.0000  bottom
+P8        PAD                   Measurement_Pt_.4mm_circle                                       0.4118     0.9751    0.0000  bottom
+P9        PAD                   Measurement_Pt_.4mm_circle                                       0.6015     1.1431    0.0000  bottom
+P10       PAD                   Measurement_Pt_.4mm_circle                                       0.4463     0.6536    0.0000  bottom
+P11       PAD                   Measurement_Pt_.4mm_circle                                       0.2862     1.1856    0.0000  bottom
+P12       PAD                   Measurement_Pt_.4mm_circle                                       0.3165     0.6519    0.0000  bottom
+P13       PAD                   Measurement_Pt_.4mm_circle                                       0.1611     1.1766    0.0000  bottom
+P14       PAD                   Measurement_Pt_.4mm_circle                                       0.4049     0.9165    0.0000  bottom
+P15       PAD                   Measurement_Pt_.4mm_circle                                       0.0443     0.7830    0.0000  bottom
+P16       PAD                   Measurement_Pt_.4mm_circle                                       0.0433     0.7601    0.0000  bottom
+P17       PAD                   Measurement_Pt_.4mm_circle                                       0.0501     0.8339    0.0000  bottom
+P18       PAD                   Measurement_Pt_.4mm_circle                                       0.0436     0.8047    0.0000  bottom
+P19       PAD                   Measurement_Pt_.4mm_circle                                       0.1206     1.1877    0.0000  bottom
+P21       PAD                   Measurement_Pt_.4mm_circle                                       0.5836     0.9440    0.0000  bottom
+P22       PAD                   Measurement_Pt_.4mm_circle                                       0.7965     0.9543    0.0000  bottom
+P23       PAD                   Measurement_Pt_.4mm_circle                                       0.6139     1.8754    0.0000  bottom
+Q1        DUAL_N_MOS_CS_SOT353  SOT-353-5pin_2x1.25mm_.65mmPITCH                                 0.0648     1.8873    0.0000  bottom
+Q4        N_MOS_5-DFN           DFN5_SO8FL                                                       0.9206     0.5878    0.0000  bottom
+Q9        NPN_BJT_SOT23         SOT-723_1.2x.8mm                                                 0.5490     0.7266  270.8000  bottom
+Q10       NPN_BJT_SOT23         SOT-723_1.2x.8mm                                                 0.1237     1.2562  180.0000  bottom
+Q11       DUAL_N_MOS_CS_SOT353  SOT-353-5pin_2x1.25mm_.65mmPITCH                                 0.8641     2.1688  270.0000  bottom
+Q12       P_MOS_SOT23           SST3                                                             0.4021     2.1784   90.0000  bottom
+Q13       P_MOS_SOT23           SST3                                                             0.5655     2.0249  180.0000  bottom
+Q14       NPN_BJT_SOT23         SOT-723_1.2x.8mm                                                 0.2148     1.8847   90.0000  bottom
+Q15       NPN_BJT_SOT23         SOT-723_1.2x.8mm                                                 0.2051     1.8158  180.0000  bottom
+R3        95.3K                 0402_Medium_pads                                                 0.5464     1.2010    0.0000  bottom
+R4        6.98k                 0402_Medium_pads                                                 0.5112     1.2010  180.0000  bottom
+R5        14.3k                 0402_Medium_pads                                                 0.4760     1.1538    0.0000  bottom
+R6        2.87k                 0402_Medium_pads                                                 0.4392     1.1533  180.0000  bottom
+R7        365k                  0402_Medium_pads                                                 0.1616     1.7495  270.0000  bottom
+R9        1k                    0402_Medium_pads                                                 0.4344     0.7446  270.0000  bottom
+R13       0                     0402_Medium_pads                                                 0.4016     1.1530    0.0000  bottom
+R16       21k                   0402_Medium_pads                                                 0.4779     0.9466  270.0000  bottom
+R17       21k                   0402_Medium_pads                                                 0.1721     1.2565    0.0000  bottom
+R19       21k                   0402_Medium_pads                                                 0.2268     1.2804   90.0000  bottom
+R21       10k 3380K             0603_Medium_Pads                                                 0.0890     2.1840   90.0000  bottom
+R22       4.7                   0402_Medium_pads                                                 0.2837     0.1040  270.0000  bottom
+R23       4.7                   0402_Medium_pads                                                 0.2837     0.1450   90.0000  bottom
+R24       4.7                   0603_Medium_Pads                                                 0.0666     1.5380  270.0000  bottom
+R25       53.6k                 0402_Medium_pads                                                 0.3705     0.6448  270.0000  bottom
+R26       95.3K                 0402_Medium_pads                                                 0.6724     0.7192   90.0000  bottom
+R27       196k                  0402_Medium_pads                                                 0.3177     0.6036    0.0000  bottom
+R28       100k                  0402_Medium_pads                                                 0.2641     1.9920    0.0000  bottom
+R29       11.5k                 0402_Medium_pads                                                 0.1446     1.9305  180.0000  bottom
+R30       0                     0402_Medium_pads                                                 0.2157     0.5880   90.0000  bottom
+R35       4.7                   0402_Medium_pads                                                 0.0660     0.5910  180.0000  bottom
+R36       4.7                   0402_Medium_pads                                                 0.7414     1.0168  270.0000  bottom
+R37       4.7                   0402_Medium_pads                                                 0.7437     0.9797  270.0000  bottom
+R38       0                     0402_Medium_pads                                                 0.7263     0.6580  270.0000  bottom
+R39       4.7                   0402_Medium_pads                                                 0.0260     0.5937    0.0000  bottom
+R42       4.7                   0402_Medium_pads                                                 0.2631     2.1270   90.0000  bottom
+R43       4.7                   0603_Medium_Pads                                                 0.4010     0.5880   90.0000  bottom
+R45       100k                  0402_Medium_pads                                                 0.2256     1.9920    0.0000  bottom
+R46       196k                  0402_Medium_pads                                                 0.1066     1.6979    0.0000  bottom
+R47       0                     0402_Medium_pads                                                 0.7263     0.6080  270.0000  bottom
+R48       196k                  0402_Medium_pads                                                 0.0513     1.6778   90.0000  bottom
+R49       0                     0402_Medium_pads                                                 0.1334     0.6438   90.0000  bottom
+R52       0                     0402_Medium_pads                                                 0.0245     0.9967    0.0000  bottom
+R53       150                   0402_Medium_pads                                                 0.9416     0.9100   90.0000  bottom
+R54       182k                  0402_Medium_pads                                                 0.3369     2.0978   90.0000  bottom
+R55       365k                  0402_Medium_pads                                                 0.3996     2.0104  180.0000  bottom
+R57       182k                  0402_Medium_pads                                                 0.3600     2.0104    0.0000  bottom
+R60       1k                    0402_Medium_pads                                                 0.5742     2.1589    0.0000  bottom
+R61       196k                  0402_Medium_pads                                                 0.4848     2.0094    0.0000  bottom
+R62       100k                  0402_Medium_pads                                                 0.4394     2.0094  180.0000  bottom
+R63       DNU                   0603_Medium_Pads                                                 0.4214     0.3086  180.0000  bottom
+R64       DNU                   0402_Medium_pads                                                 0.6727     0.7568   90.0000  bottom
+R68       196k                  0402_Medium_pads                                                 0.0250     1.0767    0.0000  bottom
+R71       49.9k                 0402_Medium_pads                                                 0.6941     2.0225  270.0000  bottom
+R73       365k                  0402_Medium_pads                                                 0.7734     2.0752   90.0000  bottom
+R74       21k                   0402_Medium_pads                                                 0.5178     0.7915  180.0000  bottom
+R76       1k                    0402_Medium_pads                                                 0.0503     1.7174   90.0000  bottom
+R77       150                   0402_Medium_pads                                                 0.4191     2.1054   90.0000  bottom
+R78       4.7                   0402_Medium_pads                                                 0.1881     2.1280   90.0000  bottom
+R79       182k                  0402_Medium_pads                                                 0.9572     2.1902    0.0000  bottom
+R80       1k                    0402_Medium_pads                                                 0.9277     1.9428  270.0000  bottom
+R81       182k                  0402_Medium_pads                                                 0.9767     2.1334  270.0000  bottom
+R82       150                   0402_Medium_pads                                                 0.7270     0.8192  180.0000  bottom
+R83       196k                  0402_Medium_pads                                                 0.6336     2.0075  180.0000  bottom
+R84       182k                  0402_Medium_pads                                                 0.8616     1.9610  180.0000  bottom
+R85       1k                    0402_Medium_pads                                                 0.2431     1.7630  270.0000  bottom
+R86       1k                    0402_Medium_pads                                                 0.2216     1.9350  270.0000  bottom
+R87       150                   0402_Medium_pads                                                 0.7721     1.3295  180.0000  bottom
+R88       150                   0402_Medium_pads                                                 0.8311     1.3490   90.0000  bottom
+R89       1k                    0402_Medium_pads                                                 0.1411     1.8555   -0.0000  bottom
+U1        LT8490                LT8490_QFN-64_UKJ                                                0.2311     0.9060  180.0000  bottom
+U2        74LV4060              TSSOP-16_SOT403-1_5x4.4mm_.65mmPITCH                             0.4452     1.8626    0.0000  bottom
+U3        LT4356                MSOP-8_3x3mm_.5mmPITCH                                           0.7352     1.1686   45.6000  bottom
+U4        MCP65R46T-1202E/CHY   SOT23-6                                                          0.6430     0.8571  180.0000  bottom
+U6        MCP65R46T-1202E/CHY   SOT23-6                                                          0.6666     2.1352    0.0000  bottom
+C1        .047uF X7R            0402_Medium_pads                                                 0.4573     1.1005   90.0000  top
+C4        1000pF X7R            0402_Medium_pads                                                 0.3393     1.0166    0.0000  top
+C5        .33uF X7R             0603_Medium_Pads                                                 0.2258     1.2498  270.0000  top
+C16       8200pF X7R            0402_Medium_pads                                                 0.1840     1.0304    0.0000  top
+C20       10uF X5R              1206_Medium_Pads                                                 0.2286     0.5994   90.0000  top
+C21       .1uF X7R              0402_Medium_pads                                                 0.3196     1.1540  180.0000  top
+C27       .033uF X7R            0603_Medium_Pads                                                 0.0900     0.3048  270.0000  top
+C33       1uF                   0805_Medium_Pads                                                 0.0382     1.0189  180.0000  top
+C35       .033uF X7R            0603_Medium_Pads                                                 0.7885     0.7389  270.0000  top
+C38       10uF X5R              1206_Medium_Pads                                                 1.0096     1.3960  180.0000  top
+C42       10uF X5R              1206_Medium_Pads                                                 1.0096     1.5735  180.0000  top
+C46       1000pF X7R            0402_Medium_pads                                                 0.6279     0.7298  270.0000  top
+C50       1000pF X7R            0603_Medium_Pads                                                 0.6926     1.2023  180.0000  top
+C58       .033uF X7R            0603_Medium_Pads                                                 0.1990     0.3024   90.0000  top
+C59       DNU                   0402_Medium_pads                                                 0.1234     1.1000  270.0000  top
+C63       .033uF X7R            0603_Medium_Pads                                                 0.7388     1.2018  180.0000  top
+C74       1000pF X7R            0402_Medium_pads                                                 0.6941     0.8900   90.0000  top
+D1        1A                    SOD-323                                                          0.2826     0.2827    0.0000  top
+D2        ZENER                 VMD2                                                             0.3843     1.2544   90.0000  top
+FID4      FIDUCIAL              FIDUCIAL_.75mm                                                   0.5228     1.2311    0.0000  top
+L1        INDUCTOR              17.5x17.5mm_FullPads_2.1mmWide                                   0.6881     0.3526  180.0000  top
+L2        1.2uH 7.5A 10.5mOhm   6.3x6.3mm_Inductor                                               0.1370     0.7944    0.0000  top
+L4        0 ohm                 0805_Medium_Pads                                                 0.6246     1.2114    0.0000  top
+P4        PAD                   Measurement_Pt_.4mm_circle                                       0.3262     1.2309    0.0000  top
+P20       PAD                   Measurement_Pt_.4mm_circle                                       0.7254     0.7728    0.0000  top
+P24       CONN_2x12             Amphenol-UC-31PFFP-QS8001-USB-Connectors-USB-3.1-TYPE-C-JACK     0.5325     2.0400    0.0000  top
+Q2        N_MOS_5-DFN           DFN5_SO8FL                                                       0.1390     0.4450  180.0000  top
+Q3        N_MOS_5-DFN           DFN5_SO8FL                                                       0.1190     0.1516   90.0000  top
+Q5        P_MOS_SOT363          SC-70-6_POWERPAK                                                 0.6600     0.9602    0.0000  top
+Q6        N_MOS_5-DFN           DFN5_SO8FL                                                       0.9471     0.8500   90.0000  top
+Q7        P_MOS_SOT23           SST3                                                             0.7681     0.8268   90.0000  top
+Q8        DUAL_N_MOS_LFPAK56D   LFPAK56D-8_5.2x4.6mm_1.27mm                                      0.3850     0.8580   90.0000  top
+R1        8.06k                 0402_Medium_pads                                                 0.1257     1.1373   90.0000  top
+R2        1k                    0402_Medium_pads                                                 0.4573     1.1866  270.0000  top
+R8        21k                   0402_Medium_pads                                                 0.1353     1.2550  270.0000  top
+R10       137k                  0402_Medium_pads                                                 0.4761     1.0420    0.0000  top
+R11       49.9k                 0402_Medium_pads                                                 0.4576     1.1365  270.0000  top
+R12       215k                  0402_Medium_pads                                                 0.4016     1.1487    0.0000  top
+R14       42.2k                 0402_Medium_pads                                                 0.4381     1.0430    0.0000  top
+R15       71.5K                 0402_Medium_pads                                                 0.2959     1.2415  180.0000  top
+R18       0                     0402_Medium_pads                                                 0.2366     1.1150   90.0000  top
+R20       11.5k                 0402_Medium_pads                                                 0.1325     1.1875   90.0000  top
+R31       DNU                   0402_Medium_pads                                                 0.2711     1.0585  180.0000  top
+R32       0.005                 0805_Medium_Pads                                                 0.2650     0.1523  180.0000  top
+R33       32.4k                 0402_Medium_pads                                                 0.1031     1.0455    0.0000  top
+R34       97.6k                 0402_Medium_pads                                                 0.1436     1.0425  180.0000  top
+R40       0.022                 0805_Medium_Pads                                                 0.0713     0.5820   90.0000  top
+R41       0.005                 0805_Medium_Pads                                                 0.8050     0.9560    0.0000  top
+R44       0                     0402_Medium_pads                                                 0.2318     1.0581    0.0000  top
+R50       196k                  0402_Medium_pads                                                 0.1821     1.1170    0.0000  top
+R51       0                     0402_Medium_pads                                                 0.0446     1.0997  270.0000  top
+R56       196k                  0402_Medium_pads                                                 0.6996     0.7291  270.0000  top
+R58       32.4k                 0402_Medium_pads                                                 0.6100     0.8890  270.0000  top
+R59       3.01k                 0402_Medium_pads                                                 0.1197     0.9880   90.0000  top
+R65       196k                  0402_Medium_pads                                                 0.5951     0.9490    0.0000  top
+R66       0.005                 0805_Medium_Pads                                                 0.7420     0.9685    0.0000  top
+R67       8.06k                 0402_Medium_pads                                                 0.8086     1.2052    0.0000  top
+R69       196k                  0402_Medium_pads                                                 0.7303     1.0668   90.0000  top
+R70       8.06k                 0402_Medium_pads                                                 0.7761     1.1267  315.0000  top
+R72       196k                  0402_Medium_pads                                                 0.3087     0.6750    0.0000  top
+R75       0.01                  0805_Medium_Pads                                                 0.6564     1.1176  270.0000  top
+U5        INA199A1DCKR          SOT-363(SC-70)-6pin_2x1.25mm_.65mmPITCH                          0.6554     0.8097  180.0000  top
+## End
